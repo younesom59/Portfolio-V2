@@ -1,0 +1,61 @@
+.experience-list {
+    background-color: #0d0d0d;
+    padding: 50px 20px;
+    text-align: left;
+  }
+  
+  .experience-list h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .job {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+  }
+  
+  .job-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .job-header img {
+    width: 30px;
+    margin-right: 15px;
+  }
+  
+  .job-header h3 {
+    color: #fff;
+    font-size: 20px;
+    flex: 1;
+  }
+  
+  .job-header span {
+    color: #b3b3b3;
+    margin-left: auto;
+  }
+  
+  .job p {
+    color: #b3b3b3;
+    font-size: 14.5px;
+  }
+  
+  /* Responsive pour les petits écrans */
+  @media (max-width: 600px) {
+    .job-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .job-header span {
+      margin-left: 0;
+    }
+  }
+  

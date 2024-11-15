@@ -1,0 +1,42 @@
+.contact {
+    background-color: #0d0d0d;
+    padding: 50px 20px;
+    text-align: left;
+    max-width: 810px;
+    margin: 0 auto;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+  }
+  
+  .contact p {
+    color: #b3b3b3;
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #b3b3b3;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.2);
+  }

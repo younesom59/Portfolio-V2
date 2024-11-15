@@ -1,0 +1,44 @@
+/* Styles Globaux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Variantes de Police */
+  .poppins-thin { font-weight: 100; }
+  .poppins-extralight { font-weight: 200; }
+  .poppins-light { font-weight: 300; }
+  .poppins-regular { font-weight: 400; }
+  .poppins-medium { font-weight: 500; }
+  .poppins-semibold { font-weight: 600; }
+  .poppins-bold { font-weight: 700; }
+  .poppins-extrabold { font-weight: 800; }
+  .poppins-black { font-weight: 900; }
+  
+  /* Ajuster la taille de police pour les petits écrans */
+  html {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
