@@ -1,10 +1,11 @@
 import React from 'react';
-import '../styles/Hero.css';
+import './Hero.css';
+
 
 function Hero() {
   return (
     <section className="hero" id="hero">
-      <img src="/img/image.png" alt="Avatar" className="avatar" />
+      <img src={`${process.env.PUBLIC_URL}/img/image.png`} alt="Avatar" className="avatar" />
       <h1>Younes <span>Ouamari</span></h1>
       <p>
         Je suis développeur full-stack, spécialisé dans le développement front-end.

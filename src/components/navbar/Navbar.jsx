@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../styles/Navbar.css';
+import './Navbar.css';
+
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,7 +8,7 @@ function Navbar() {
   return (
     <header>
       <div className="logo">
-        <img src="/img/logo.svg" alt="Logo" className="logo" />
+        <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="Logo" className="logo" />
       </div>
       <nav>
         <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>

@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Skills from './Skills';
-import Projects from './Projects';
-import Experience from './Experience';
-import Contact from './Contact';
+import Navbar from './navbar/Navbar';
+import Hero from './hero/Hero';
+import Skills from './skills/Skills';
+import Projects from './projects/Projects';
+import Experience from './experience/Experience';
+import Contact from './contact/Contact';
 import '../styles/App.css';
 
 function App() {

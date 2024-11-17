@@ -13,6 +13,17 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }  
+  
+  .projects, .experience-list, .skills, .contact {
+    margin-bottom: 50px;
+  }
+  
   
   /* Variantes de Police */
   .poppins-thin { font-weight: 100; }
