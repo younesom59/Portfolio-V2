@@ -5,7 +5,7 @@ import Skills from './skills/Skills';
 import Projects from './projects/Projects';
 import Experience from './experience/Experience';
 import Contact from './contact/Contact';
-import '../styles/App.css';
+import '../styles/App.scss';
 
 function App() {
   return (
